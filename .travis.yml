@@ -21,6 +21,9 @@ notifications:
       - jkeenan@cpan.org
     on_success: never
     on_failure: always
+arch:
+  - ppc64le
+  - amd64
 matrix:
   allow_failures:
     - perl: blead
